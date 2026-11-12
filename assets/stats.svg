@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 210" width="400" height="210" role="img" aria-label="ESTADÍSTICAS">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D4AF37"/><stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .in { opacity: 0; animation: in .8s ease-out forwards; }
+    @keyframes in { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
+    .bar { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1.2s ease-out forwards; }
+    @keyframes grow { to { transform: scaleX(1); } }
+  </style>
+  <rect x="1" y="1" width="398" height="208" rx="12" fill="#0D0D0D" stroke="#D4AF37" stroke-opacity=".7"/>
+  <text x="26" y="40" fill="#D4AF37" font-size="15" font-weight="600" letter-spacing="4">ESTADÍSTICAS</text>
+  <rect x="26" y="52" width="348" height="1" fill="url(#g)"/>
+  <g class="in" style="animation-delay:0.00s">
+    <g transform="translate(32 81) rotate(45)"><rect x="-3.5" y="-3.5" width="7" height="7" fill="#D4AF37"/></g>
+    <text x="48" y="86" fill="#E6E6E6" font-size="14">Repositorios públicos</text>
+    <text x="374" y="86" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="end">14</text>
+  </g>
+  <g class="in" style="animation-delay:0.12s">
+    <g transform="translate(32 108) rotate(45)"><rect x="-3.5" y="-3.5" width="7" height="7" fill="#D4AF37"/></g>
+    <text x="48" y="113" fill="#E6E6E6" font-size="14">Commits</text>
+    <text x="374" y="113" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="end">156</text>
+  </g>
+  <g class="in" style="animation-delay:0.24s">
+    <g transform="translate(32 135) rotate(45)"><rect x="-3.5" y="-3.5" width="7" height="7" fill="#D4AF37"/></g>
+    <text x="48" y="140" fill="#E6E6E6" font-size="14">Lenguajes utilizados</text>
+    <text x="374" y="140" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="end">9</text>
+  </g>
+  <g class="in" style="animation-delay:0.36s">
+    <g transform="translate(32 162) rotate(45)"><rect x="-3.5" y="-3.5" width="7" height="7" fill="#D4AF37"/></g>
+    <text x="48" y="167" fill="#E6E6E6" font-size="14">Seguidores</text>
+    <text x="374" y="167" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="end">3</text>
+  </g>
+
+</svg>

@@ -6,12 +6,11 @@
 
 <a href="https://www.linkedin.com/in/santiago-villamizar-mantilla/"><img src="https://img.shields.io/badge/LinkedIn-Conectemos-D4AF37?style=for-the-badge&logo=linkedin&logoColor=D4AF37&labelColor=0D0D0D" alt="LinkedIn"/></a>
 <a href="mailto:villamizarmantillasantigo@gmail.com"><img src="https://img.shields.io/badge/Email-Escríbeme-D4AF37?style=for-the-badge&logo=gmail&logoColor=D4AF37&labelColor=0D0D0D" alt="Email"/></a>
-<a href="https://www.instagram.com/_santi.villamizar"><img src="https://img.shields.io/badge/Instagram-_santi.villamizar-D4AF37?style=for-the-badge&logo=instagram&logoColor=D4AF37&labelColor=0D0D0D" alt="Instagram"/></a>
 
 <br/>
 
 <img src="https://img.shields.io/badge/Desarrollador_Full_Stack_Junior-0D0D0D?style=flat-square&logoColor=D4AF37" alt="Rol"/>
-<img src="https://img.shields.io/badge/📍_Piedecuesta,_Santander,_Colombia-0D0D0D?style=flat-square" alt="Ubicación"/>
+<img src="https://img.shields.io/badge/Piedecuesta,_Santander,_Colombia-0D0D0D?style=flat-square" alt="Ubicación"/>
 <img src="https://img.shields.io/badge/Abierto_a_oportunidades-D4AF37?style=flat-square" alt="Disponible"/>
 
 </div>
@@ -22,12 +21,12 @@
 
 Construyo **aplicaciones web, backends y flujos de automatización con IA**. Trabajo con **Java · Spring Boot · PHP · Laravel · Python · JavaScript · PostgreSQL · Docker · n8n**.
 
-- 🎓 **Técnico en Programación**, egresado de **Campuslands** (dic. 2025 – nov. 2026).
-- 💼 **Desarrollador TIC** en **Cybertec Informática y Telecomunicaciones** e **Insuma BGA** (oct. 2026 – actualidad).
-- 🚀 **Practicante de Desarrollo de Software** en **Globant**, con contrato de aprendizaje SENA (nov. 2026 – actualidad).
-- 🛠️ Hoy lidero el desarrollo de un **sistema de requisiciones en línea** que reemplaza un software antiguo: backend en PHP/Laravel, PostgreSQL, contenedores Docker y despliegue con Plesk. Me apoyo en IA (Claude) para acelerar el desarrollo y la depuración.
-- 🤝 Me gusta asumir liderazgo, comunicar con claridad y resolver problemas. Trabajo con **Scrum** y **Jira**.
-- 🔎 Abierto a oportunidades en Colombia, en modalidad híbrida o remota.
+- **Técnico en Programación**, egresado de **Campuslands** (dic. 2025 – nov. 2026).
+- **Desarrollador TIC** en **Cybertec Informática y Telecomunicaciones** e **Insuma BGA** (oct. 2026 – actualidad).
+- **Practicante de Desarrollo de Software** en **Globant**, con contrato de aprendizaje SENA (nov. 2026 – actualidad).
+- Hoy lidero el desarrollo de un **sistema de requisiciones en línea** que reemplaza un software antiguo: backend en PHP/Laravel, PostgreSQL, contenedores Docker y despliegue con Plesk. Me apoyo en IA (Claude) para acelerar el desarrollo y la depuración.
+- Me gusta asumir liderazgo, comunicar con claridad y resolver problemas. Trabajo con **Scrum** y **Jira**.
+- Abierto a oportunidades en Colombia, en modalidad híbrida o remota.
 
 <br/>
 
@@ -39,7 +38,7 @@ Construyo **aplicaciones web, backends y flujos de automatización con IA**. Tra
 | **Desarrollador TIC** | Cybertec Informática y Telecomunicaciones S.A.S. | oct. 2026 – actualidad | Híbrido · Piedecuesta |
 | **Desarrollador TIC** | Insuma BGA | oct. 2026 – actualidad | Híbrido · Girón |
 
-> **⚜ Sistema de requisiciones en línea · Cybertec / Insuma BGA**
+> **Sistema de requisiciones en línea · Cybertec / Insuma BGA**
 > Migración y corrección de un software heredado hacia una plataforma web moderna.
 > `PHP` `Laravel` `PostgreSQL` `Docker` `Plesk` `Claude (IA)`
 
@@ -98,7 +97,7 @@ Construyo **aplicaciones web, backends y flujos de automatización con IA**. Tra
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 [TenderoBot](https://github.com/SantiagovillamizarM/TenderoBot)
+### [TenderoBot](https://github.com/SantiagovillamizarM/TenderoBot)
 Bot de Telegram con IA que lleva el inventario de tiendas de barrio: registra ventas por voz, cuenta el estante con una foto y genera el pedido sugerido al distribuidor.
 
 `Python` `FastAPI` `PostgreSQL` `Gemini` `Telegram`
@@ -106,7 +105,7 @@ Bot de Telegram con IA que lleva el inventario de tiendas de barrio: registra ve
 </td>
 <td width="50%" valign="top">
 
-### 🧾 [CyberManagement](https://github.com/SantiagovillamizarM/CyberManagement)
+### [CyberManagement](https://github.com/SantiagovillamizarM/CyberManagement)
 Gestión inteligente de gastos empresariales: los empleados registran facturas por Telegram, Gemini extrae los datos y el administrador controla gastos, viáticos e informes PDF desde un panel web.
 
 `Python` `FastAPI` `PostgreSQL` `n8n` `Gemini`
@@ -116,7 +115,7 @@ Gestión inteligente de gastos empresariales: los empleados registran facturas p
 <tr>
 <td width="50%" valign="top">
 
-### 🏫 [Nexo Campus](https://github.com/SantiagovillamizarM/Nexo-Campus)
+### [Nexo Campus](https://github.com/SantiagovillamizarM/Nexo-Campus)
 Sistema central de gestión operativa de Campuslands (Hackatón *"El campus bajo presión"*): reservas de espacios, préstamo de equipos e incidencias, con IA que clasifica incidencias y recomienda espacios.
 
 `Python` `Streamlit` `SQLModel` `Pydantic` `pandas` `Gemini`
@@ -124,7 +123,7 @@ Sistema central de gestión operativa de Campuslands (Hackatón *"El campus bajo
 </td>
 <td width="50%" valign="top">
 
-### 🏁 [Paddock Global](https://github.com/SantiagovillamizarM/IA)
+### [Paddock Global](https://github.com/SantiagovillamizarM/IA)
 Análisis de sentimientos con LangChain sobre opiniones de aficionados al automovilismo y motociclismo (F1, MotoGP, rally, IndyCar, NASCAR, Fórmula E…).
 
 `Python` `LangChain` `LLM`
@@ -134,7 +133,7 @@ Análisis de sentimientos con LangChain sobre opiniones de aficionados al automo
 <tr>
 <td width="50%" valign="top">
 
-### 🔧 [RentTool](https://github.com/SantiagovillamizarM/RentTool-)
+### [RentTool](https://github.com/SantiagovillamizarM/RentTool-)
 Plataforma de alquiler de herramientas y equipos de construcción: catálogo, reservas por fechas y seguimiento del alquiler desde la solicitud hasta la devolución e incidencias.
 
 `Java` `MySQL` `Docker`
@@ -142,7 +141,7 @@ Plataforma de alquiler de herramientas y equipos de construcción: catálogo, re
 </td>
 <td width="50%" valign="top">
 
-### 🏎️ [F1 Manager](https://github.com/SantiagovillamizarM/F1-manager)
+### [F1 Manager](https://github.com/SantiagovillamizarM/F1-manager)
 Aplicación de escritorio con estética oscura y deportiva para gestionar circuitos, pilotos, equipos y vehículos.
 
 `Java` `JavaFX` `CSS`
@@ -152,15 +151,15 @@ Aplicación de escritorio con estética oscura y deportiva para gestionar circui
 </table>
 
 <details>
-<summary><b>⚜ Ver más proyectos</b></summary>
+<summary><b>Ver más proyectos</b></summary>
 
 <br/>
 
-- ✅ **[Task Helper](https://github.com/SantiagovillamizarM/Task-Helper)**: gestor de tareas con prioridades, estados, usuarios asignados y control de proyectos. `Java`
-- 🏦 **[Banco Acme](https://github.com/SantiagovillamizarM/Banco-Acme_JS_Santiago-villamizar_juan-rangel)**: app web bancaria con registro, inicio de sesión, recuperación de contraseña y gestión autónoma de la cuenta. `JavaScript` `HTML` `CSS`
-- 🧰 **[Sistema de préstamo de herramientas](https://github.com/SantiagovillamizarM/proyecto-python-santiago-villamizar)**: gestión de inventario y préstamos con módulo de administrador y de usuario. `Python`
-- 🗄️ **[postgres-db-solution](https://github.com/SantiagovillamizarM/postgres-db-solution)**: diagnóstico y solución documentada a la corrupción de caracteres (encoding) al importar la base de datos *world* en PostgreSQL. `PostgreSQL` `SQL`
-- 🌐 **[Portafolio](https://github.com/SantiagovillamizarM/portafolio-)**: portafolio personal hecho con HTML5, CSS3 y JavaScript vanilla.
+- **[Task Helper](https://github.com/SantiagovillamizarM/Task-Helper)**: gestor de tareas con prioridades, estados, usuarios asignados y control de proyectos. `Java`
+- **[Banco Acme](https://github.com/SantiagovillamizarM/Banco-Acme_JS_Santiago-villamizar_juan-rangel)**: app web bancaria con registro, inicio de sesión, recuperación de contraseña y gestión autónoma de la cuenta. `JavaScript` `HTML` `CSS`
+- **[Sistema de préstamo de herramientas](https://github.com/SantiagovillamizarM/proyecto-python-santiago-villamizar)**: gestión de inventario y préstamos con módulo de administrador y de usuario. `Python`
+- **[postgres-db-solution](https://github.com/SantiagovillamizarM/postgres-db-solution)**: diagnóstico y solución documentada a la corrupción de caracteres (encoding) al importar la base de datos *world* en PostgreSQL. `PostgreSQL` `SQL`
+- **[Portafolio](https://github.com/SantiagovillamizarM/portafolio-)**: portafolio personal hecho con HTML5, CSS3 y JavaScript vanilla.
 
 </details>
 
@@ -170,8 +169,8 @@ Aplicación de escritorio con estética oscura y deportiva para gestionar circui
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=SantiagovillamizarM&show_icons=true&bg_color=0D0D0D&title_color=D4AF37&icon_color=D4AF37&text_color=FFFFFF&border_color=D4AF37&border_radius=12&hide_rank=false&ring_color=D4AF37" alt="Estadísticas de GitHub"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SantiagovillamizarM&layout=compact&bg_color=0D0D0D&title_color=D4AF37&text_color=FFFFFF&border_color=D4AF37&border_radius=12" alt="Lenguajes más usados"/>
+<img src="assets/stats.svg" width="49%" alt="Estadísticas de GitHub"/>
+<img src="assets/lenguajes.svg" width="49%" alt="Lenguajes más usados"/>
 
 <img src="https://streak-stats.demolab.com?user=SantiagovillamizarM&background=0D0D0D&border=D4AF37&stroke=D4AF37&ring=D4AF37&fire=D4AF37&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=D4AF37&sideLabels=D4AF37&dates=9A9A9A&border_radius=12" alt="Racha de contribuciones"/>
 
