@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Santiago Villamizar Mantilla — Desarrollo soluciones con código, con propósito">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8C6A1E"/>
+      <stop offset="35%" stop-color="#F7DC8A"/>
+      <stop offset="55%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8C6A1E"/>
+    </linearGradient>
+    <linearGradient id="goldShine" x1="-1" y1="0" x2="0" y2="0">
+      <stop offset="0%" stop-color="#B8892B"/>
+      <stop offset="45%" stop-color="#B8892B"/>
+      <stop offset="50%" stop-color="#FFF4C9"/>
+      <stop offset="55%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B8892B"/>
+      <animate attributeName="x1" values="-1;1" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="sphere" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#FCE7A2"/>
+      <stop offset="45%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#6E5214"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#121212"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="white" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E6E6E6"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#FFFFFF" stroke-opacity="0.025"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="380" rx="22"/></clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .fade { opacity: 0; animation: fadeUp 1s ease-out forwards; }
+    .d1 { animation-delay: .2s; } .d2 { animation-delay: .5s; } .d3 { animation-delay: .8s; }
+    .d4 { animation-delay: 1.1s; } .d5 { animation-delay: 1.4s; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+
+    .ring { stroke-dasharray: 520; stroke-dashoffset: 520; animation: draw 2.4s ease-out forwards; }
+    @keyframes draw { to { stroke-dashoffset: 110; } }
+
+    .line { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 3.2s ease-in-out infinite; }
+    .l2 { animation-delay: .25s; } .l3 { animation-delay: .5s; } .l4 { animation-delay: .75s; }
+    .l5 { animation-delay: 1s; } .l6 { animation-delay: 1.25s; } .l7 { animation-delay: 1.5s; }
+    @keyframes grow { 0% { transform: scaleX(0); } 35%, 85% { transform: scaleX(1); } 100% { transform: scaleX(0); } }
+
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .float { animation: float 6s ease-in-out infinite; }
+    @keyframes float { 50% { transform: translateY(-8px); } }
+
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 50% { transform: scale(1.6); opacity: .5; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="380" fill="url(#bg)"/>
+    <rect width="1200" height="380" fill="url(#grid)"/>
+    <circle cx="160" cy="190" r="220" fill="url(#glow)"/>
+
+    <!-- Esfera dorada + corte blanco diagonal -->
+    <g class="float">
+      <circle cx="1010" cy="70" r="78" fill="url(#sphere)"/>
+    </g>
+    <path d="M1200 0 L1200 380 L960 380 Z" fill="url(#white)"/>
+    <circle cx="1150" cy="330" r="20" fill="#FFFFFF" stroke="#E2E2E2"/>
+    <path d="M960 380 L1200 0" stroke="url(#gold)" stroke-width="2"/>
+
+    <!-- Anillo dorado con </> -->
+    <circle cx="160" cy="190" r="86" fill="none" stroke="#D4AF37" stroke-opacity=".15" stroke-width="1.5"/>
+    <circle class="ring" cx="160" cy="190" r="86" fill="none" stroke="url(#gold)" stroke-width="2.5" stroke-linecap="round" transform="rotate(-120 160 190)"/>
+    <g fill="none" stroke="url(#goldShine)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M135 160 L105 190 L135 220"/>
+      <path d="M185 160 L215 190 L185 220"/>
+      <path d="M170 150 L150 230"/>
+    </g>
+
+    <!-- Texto principal -->
+    <g class="sans">
+      <text class="fade d1" x="320" y="92" fill="#BFBFBF" font-size="15" letter-spacing="6">SANTIAGO VILLAMIZAR MANTILLA</text>
+      <text class="fade d2" x="318" y="148" fill="#FFFFFF" font-size="40" font-weight="300" letter-spacing="9">DESARROLLO</text>
+      <text class="fade d3" x="316" y="214" fill="url(#goldShine)" font-size="64" font-weight="600" letter-spacing="8">SOLUCIONES</text>
+      <text class="fade d4" x="320" y="256" fill="#FFFFFF" font-size="19" letter-spacing="5">CON CÓDIGO. CON <tspan fill="#D4AF37">PROPÓSITO.</tspan></text>
+      <g class="fade d5">
+        <rect x="320" y="280" width="180" height="1.5" fill="url(#gold)"/>
+        <circle class="pulse" cx="506" cy="280.75" r="3" fill="#D4AF37"/>
+        <text x="320" y="320" fill="#9A9A9A" font-size="13" letter-spacing="4">FULL STACK DEVELOPER  ·  JAVA  ·  PHP  ·  PYTHON  ·  IA</text>
+      </g>
+    </g>
+
+    <!-- Ventana de código -->
+    <g class="fade d3">
+      <rect x="770" y="120" width="250" height="180" rx="12" fill="#0B0B0B" stroke="url(#gold)" stroke-width="1.5"/>
+      <line x1="770" y1="150" x2="1020" y2="150" stroke="#D4AF37" stroke-opacity=".35"/>
+      <circle cx="790" cy="135" r="4" fill="#D4AF37"/>
+      <circle cx="804" cy="135" r="4" fill="#D4AF37" fill-opacity=".6"/>
+      <circle cx="818" cy="135" r="4" fill="#D4AF37" fill-opacity=".3"/>
+      <g>
+        <rect class="line"    x="790" y="168" width="120" height="5" rx="2.5" fill="#D4AF37"/>
+        <rect class="line l2" x="806" y="184" width="150" height="5" rx="2.5" fill="#FFFFFF" fill-opacity=".75"/>
+        <rect class="line l3" x="822" y="200" width="90"  height="5" rx="2.5" fill="#D4AF37" fill-opacity=".7"/>
+        <rect class="line l4" x="822" y="216" width="130" height="5" rx="2.5" fill="#FFFFFF" fill-opacity=".5"/>
+        <rect class="line l5" x="806" y="232" width="70"  height="5" rx="2.5" fill="#D4AF37"/>
+        <rect class="line l6" x="790" y="248" width="40"  height="5" rx="2.5" fill="#FFFFFF" fill-opacity=".75"/>
+      </g>
+      <text class="sans" x="790" y="286" fill="#D4AF37" font-size="14" font-weight="600">&lt;/&gt;<tspan class="cursor" fill="#FFFFFF"> _</tspan></text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="378" rx="21" fill="none" stroke="url(#gold)" stroke-opacity=".6" stroke-width="2"/>
+</svg>
