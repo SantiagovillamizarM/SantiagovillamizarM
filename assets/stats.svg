@@ -17,12 +17,12 @@
   <g class="in" style="animation-delay:0.00s">
     <g transform="translate(32 81) rotate(45)"><rect x="-3.5" y="-3.5" width="7" height="7" fill="#D4AF37"/></g>
     <text x="48" y="86" fill="#E6E6E6" font-size="14">Repositorios públicos</text>
-    <text x="374" y="86" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="end">14</text>
+    <text x="374" y="86" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="end">16</text>
   </g>
   <g class="in" style="animation-delay:0.12s">
     <g transform="translate(32 108) rotate(45)"><rect x="-3.5" y="-3.5" width="7" height="7" fill="#D4AF37"/></g>
     <text x="48" y="113" fill="#E6E6E6" font-size="14">Commits</text>
-    <text x="374" y="113" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="end">156</text>
+    <text x="374" y="113" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="end">185</text>
   </g>
   <g class="in" style="animation-delay:0.24s">
     <g transform="translate(32 135) rotate(45)"><rect x="-3.5" y="-3.5" width="7" height="7" fill="#D4AF37"/></g>
@@ -33,6 +33,11 @@
     <g transform="translate(32 162) rotate(45)"><rect x="-3.5" y="-3.5" width="7" height="7" fill="#D4AF37"/></g>
     <text x="48" y="167" fill="#E6E6E6" font-size="14">Seguidores</text>
     <text x="374" y="167" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="end">3</text>
+  </g>
+  <g class="in" style="animation-delay:0.48s">
+    <g transform="translate(32 189) rotate(45)"><rect x="-3.5" y="-3.5" width="7" height="7" fill="#D4AF37"/></g>
+    <text x="48" y="194" fill="#E6E6E6" font-size="14">Pull requests</text>
+    <text x="374" y="194" fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="end">5</text>
   </g>
 
 </svg>
